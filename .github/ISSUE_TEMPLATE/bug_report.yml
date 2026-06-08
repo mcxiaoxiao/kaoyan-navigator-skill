@@ -1,0 +1,45 @@
+name: Bug 报告
+description: 报告脚本、Skill 流程或数据口径错误
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: 感谢反馈。请先移除姓名、准考证号、手机号等敏感信息。
+  - type: textarea
+    id: problem
+    attributes:
+      label: 问题描述
+      description: 当前发生了什么，预期应该是什么？
+    validations:
+      required: true
+  - type: textarea
+    id: target
+    attributes:
+      label: 研究对象
+      description: 学校、学院、专业代码、培养方式和年份。
+  - type: textarea
+    id: source
+    attributes:
+      label: 来源与复现材料
+      description: 提供官方 URL、脱敏文件、命令或最小复现步骤。
+    validations:
+      required: true
+  - type: dropdown
+    id: environment
+    attributes:
+      label: 使用环境
+      options:
+        - Codex
+        - Claude Code
+        - 其他 Agent
+        - 仅运行脚本
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: 隐私确认
+      options:
+        - label: 我已移除个人敏感信息。
+          required: true
+

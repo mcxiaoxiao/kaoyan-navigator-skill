@@ -1,0 +1,32 @@
+name: 功能建议
+description: 建议新的指标、数据源、脚本或 Agent 支持
+title: "[Feature] "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: scenario
+    attributes:
+      label: 使用场景
+      description: 这个功能要解决什么实际问题？
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 建议方案
+      description: 描述期望流程、输入和输出。
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 数据或参考依据
+      description: 风险指标和阈值建议请附官方来源、案例或研究依据。
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: 参与意愿
+      options:
+        - label: 我愿意协助实现或测试这个功能。
+

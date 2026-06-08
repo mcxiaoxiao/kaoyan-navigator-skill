@@ -4,6 +4,37 @@
 
 > 不做“算命式预测”。本项目输出的是可审计的风险信号、证据质量和置信度。
 
+## GitHub 仓库信息
+
+**推荐仓库名**
+
+```text
+kaoyan-risk-skill
+```
+
+**推荐 Description**
+
+```text
+面向 Codex、Claude Code 与 AI Agent 的考研择校分析 Skill：联网调研复试线、统考名额、推免和拟录取数据，评估爆热、缩招与复试风险。
+```
+
+**推荐 Topics**
+
+```text
+kaoyan
+kaoyan-analysis
+graduate-admission
+chinese-postgraduate-exam
+ai-agent
+agent-skill
+codex-skill
+claude-code
+multi-agent
+education
+data-analysis
+408
+```
+
 ## 适合解决什么问题
 
 - 某学校某专业今年考研会不会“爆”？
@@ -92,6 +123,33 @@ python3 scripts/validate_data.py examples/sample.csv
 
 考研择校、考研院校分析、考研报录比、考研复试线、考研招生人数、统考名额、推免比例、考研爆冷、考研爆热、408 考研、考研 AI Agent、Codex Skill、Claude Code Skill。
 
+## 推广文案
+
+### GitHub / 技术社区
+
+> 开源了一个考研择校风险分析 Skill。它不是让 AI 凭感觉预测，而是先查学校官网、招生目录、复试细则和拟录取名单，再从复试线、统考名额、推免、复录比、科目变更等维度给出风险与置信度。支持 Codex、Claude Code 和其他 Agent，也能导入自己的 CSV/JSON 数据。
+
+### 知乎 / 公众号
+
+> 考研择校最容易踩的坑，不只是“分数线高”，而是复试线虚低、统考名额缩水、推免挤压、专业课突然变更，以及被反复推荐后形成的报考拥挤。我把这些判断整理成了一个开源 AI Agent Skill：先自动寻找近三年官方数据，找不到关键材料时再请用户补充，并明确区分风险和数据置信度。
+
+### 小红书 / 即刻短文案
+
+> 做了一个开源考研择校 AI Skill：输入学校、学院和专业，它会先自己找近三年复试线、统考名额、推免和拟录取数据，再判断缩招、爆热、复试线虚低、改考 408 等风险。不是“AI 算命”，每个结论都要带来源和置信度。
+
+### 一句话介绍
+
+> 让 AI 先查证据，再判断你的考研目标院校是不是潜在“爆款”。
+
+## 参与贡献
+
+欢迎提交院校数据口径、搜索策略、风险指标、真实案例和工具兼容性改进。提交前请阅读 [CONTRIBUTING.md](CONTRIBUTING.md)。
+
+- Bug 或错误数据：使用 Bug Report。
+- 新指标或工具支持：使用 Feature Request。
+- 安全问题：按照 [SECURITY.md](SECURITY.md) 私下报告。
+- 所有参与者需遵守 [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)。
+
 ## 参考项目
 
 - [Uoldady/kaoyan-burst-predictor](https://github.com/Uoldady/kaoyan-burst-predictor)
@@ -107,4 +165,3 @@ python3 scripts/validate_data.py examples/sample.csv
 ## License
 
 MIT
-

@@ -9,9 +9,6 @@
 
 > 不做“算命式预测”。本项目输出的是可审计的风险信号、证据质量和置信度。
 
-<p align="center">
-  <img src="promotion/assets/ff68d3cd28a612b725b53a4406d84a17.png" alt="考研导航 Skill 原理图：输入规范化、公开检索、证据分级、核心判断与输出结论" />
-</p>
 
 <p>
   <img src="https://img.shields.io/badge/%E5%8E%86%E5%B9%B4%E6%8B%9B%E7%94%9F-4E5058?style=for-the-badge" alt="历年招生" />
@@ -28,6 +25,11 @@
   <img src="https://img.shields.io/badge/%E8%AF%81%E6%8D%AE%E5%88%86%E7%BA%A7-9A8A39?style=for-the-badge" alt="证据分级" />
   <img src="https://img.shields.io/badge/%E5%86%B2%E7%A8%B3%E4%BF%9D-C58A3C?style=for-the-badge" alt="冲稳保" />
 </p>
+
+<p align="center">
+  <img src="promotion/assets/ff68d3cd28a612b725b53a4406d84a17.png" alt="考研导航 Skill 原理图：输入规范化、公开检索、证据分级、核心判断与输出结论" />
+</p>
+
 
 这个 Skill 是一个面向考研择校的工程交付。它先从学校研究生院、招生网、学院公告和拟录取公示里找历年数据；
 只有关键字段确实找不到时，才请用户上传 CSV、PDF、截图或链接。输出里会保留来源、口径、缺失项、置信度与冲稳保建议。

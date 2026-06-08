@@ -19,7 +19,7 @@ export GH_TOKEN=your_token_here
 在项目根目录运行：
 
 ```bash
-gh repo create kaoyan-risk-skill \
+gh repo create kaoyan-navigator-skill \
   --public \
   --source . \
   --remote origin \
@@ -54,5 +54,4 @@ gh repo edit --add-topic 408
 
 ## 5. 首条推广文案
 
-发布后可复制 [PROMOTION.md](PROMOTION.md) 中的“首发文案”，并附上仓库链接。
-
+发布后从 [promotion/](promotion/) 选择对应平台文案，并附上仓库链接。

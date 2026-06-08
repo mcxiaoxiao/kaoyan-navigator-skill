@@ -1,7 +1,7 @@
 interface:
-  display_name: "考研择校风险研究"
-  short_description: "联网调研历年招生数据，审计证据并评估考研择校风险"
-  default_prompt: "使用 $kaoyan-risk 调研我的目标院校和专业，先联网找历年数据，再评估风险与冲稳保策略。"
+  display_name: "考研择校导航"
+  short_description: "联网调研历年招生数据，审计证据并生成择校导航"
+  default_prompt: "使用 $kaoyan-navigator 调研我的目标院校和专业，先联网找历年数据，再评估择校稳妥性与冲稳保策略。"
 
 policy:
   allow_implicit_invocation: true

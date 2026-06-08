@@ -1,6 +1,6 @@
 # 贡献指南
 
-感谢你帮助改进 `kaoyan-risk-skill`。
+感谢你帮助改进 `kaoyan-navigator-skill`。
 
 ## 可以贡献什么
 

@@ -1,39 +1,8 @@
-# 考研择校预测 Skill：历年数据调研、爆热风险与冲稳保分析
+# 考研择校导航 Skill：历年数据调研、避坑提示与冲稳保分析
 
-一个面向 **Codex、Claude Code 和通用 AI Agent** 的中国考研择校研究 Skill。输入目标学校、学院和专业后，Agent 会先从学校官网、研究生院、研招网和公开名单中寻找历年数据；只有关键数据确实找不到时，才向用户索取 CSV、Excel、JSON、PDF、截图或链接。
+一个面向 **Codex、Claude Code 和通用 AI Agent** 的中国考研择校导航 Skill。输入目标学校、学院和专业后，Agent 会先从学校官网、研究生院、研招网和公开名单中寻找历年数据；只有关键数据确实找不到时，才向用户索取 CSV、Excel、JSON、PDF、截图或链接。
 
 > 不做“算命式预测”。本项目输出的是可审计的风险信号、证据质量和置信度。
-
-## GitHub 仓库信息
-
-**推荐仓库名**
-
-```text
-kaoyan-risk-skill
-```
-
-**推荐 Description**
-
-```text
-面向 Codex、Claude Code 与 AI Agent 的考研择校分析 Skill：联网调研复试线、统考名额、推免和拟录取数据，评估爆热、缩招与复试风险。
-```
-
-**推荐 Topics**
-
-```text
-kaoyan
-kaoyan-analysis
-graduate-admission
-chinese-postgraduate-exam
-ai-agent
-agent-skill
-codex-skill
-claude-code
-multi-agent
-education
-data-analysis
-408
-```
 
 ## 适合解决什么问题
 
@@ -59,14 +28,14 @@ data-analysis
 ## 仓库结构
 
 ```text
-kaoyan-risk-skill/
+kaoyan-navigator-skill/
 ├── SKILL.md
 ├── agents/openai.yaml
 ├── references/
 │   ├── data-schema.md
 │   ├── report-template.md
 │   ├── research-playbook.md
-│   └── risk-model.md
+│   └── decision-model.md
 ├── scripts/validate_data.py
 └── examples/sample.csv
 ```
@@ -78,14 +47,14 @@ kaoyan-risk-skill/
 将仓库目录复制到 Codex skills 目录：
 
 ```bash
-git clone https://github.com/YOUR_NAME/kaoyan-risk-skill.git
-cp -R kaoyan-risk-skill ~/.codex/skills/kaoyan-risk
+git clone https://github.com/mcxiaoxiao/kaoyan-navigator-skill.git
+cp -R kaoyan-navigator-skill ~/.codex/skills/kaoyan-navigator
 ```
 
 然后在对话中使用：
 
 ```text
-使用 $kaoyan-risk，分析 2027 考研某大学计算机学院 085404 计算机技术。
+使用 $kaoyan-navigator，分析 2027 考研某大学计算机学院 085404 计算机技术。
 ```
 
 ### Claude Code
@@ -109,37 +78,15 @@ python3 scripts/validate_data.py examples/sample.csv
 ## 示例提示词
 
 ```text
-使用 $kaoyan-risk 分析 2027 年入学的 XX 大学 XX 学院 085404。
+使用 $kaoyan-navigator 分析 2027 年入学的 XX 大学 XX 学院 085404。
 先联网找 2024-2026 年官方数据。如果拟录取分数找不到，再明确告诉我需要上传什么。
 我本科双非，目标 350 分，接受调剂但不接受非全，请给冲稳保建议。
 ```
 
 ```text
-使用 $kaoyan-risk 分析我上传的 CSV。先检查不同学院、专业代码和培养方式是否混用，
+使用 $kaoyan-navigator 分析我上传的 CSV。先检查不同学院、专业代码和培养方式是否混用，
 再给出缩招、推免挤压、复试线虚低和科目变化风险。
 ```
-
-## SEO 关键词
-
-考研择校、考研院校分析、考研报录比、考研复试线、考研招生人数、统考名额、推免比例、考研爆冷、考研爆热、408 考研、考研 AI Agent、Codex Skill、Claude Code Skill。
-
-## 推广文案
-
-### GitHub / 技术社区
-
-> 开源了一个考研择校风险分析 Skill。它不是让 AI 凭感觉预测，而是先查学校官网、招生目录、复试细则和拟录取名单，再从复试线、统考名额、推免、复录比、科目变更等维度给出风险与置信度。支持 Codex、Claude Code 和其他 Agent，也能导入自己的 CSV/JSON 数据。
-
-### 知乎 / 公众号
-
-> 考研择校最容易踩的坑，不只是“分数线高”，而是复试线虚低、统考名额缩水、推免挤压、专业课突然变更，以及被反复推荐后形成的报考拥挤。我把这些判断整理成了一个开源 AI Agent Skill：先自动寻找近三年官方数据，找不到关键材料时再请用户补充，并明确区分风险和数据置信度。
-
-### 小红书 / 即刻短文案
-
-> 做了一个开源考研择校 AI Skill：输入学校、学院和专业，它会先自己找近三年复试线、统考名额、推免和拟录取数据，再判断缩招、爆热、复试线虚低、改考 408 等风险。不是“AI 算命”，每个结论都要带来源和置信度。
-
-### 一句话介绍
-
-> 让 AI 先查证据，再判断你的考研目标院校是不是潜在“爆款”。
 
 ## 参与贡献
 

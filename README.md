@@ -1,11 +1,15 @@
-# 考研择校导航 Skill：历年数据调研、避坑提示与冲稳保分析
+<p align="center">
+  <img src="promotion/assets/logo.svg" alt="kaoyan-navigator-skill" width="100" height="100" />
+</p>
+
+# 考研导航：历年数据调研、避坑提示与冲稳保分析 Skill
 
 一个面向 **Codex、Claude Code 和通用 AI Agent** 的中国考研择校导航 Skill。输入目标学校、学院和专业后，Agent 会先从学校官网、研究生院、研招网和公开名单中寻找历年数据；只有关键数据确实找不到时，才向用户索取 CSV、Excel、JSON、PDF、截图或链接。
 
 > 不做“算命式预测”。本项目输出的是可审计的风险信号、证据质量和置信度。
 
 <p align="center">
-  <img src="promotion/assets/readme-figure.svg" alt="考研导航 Skill 原理图：输入规范化、公开检索、证据分级、核心判断与输出结论" />
+  <img src="promotion/assets/ff68d3cd28a612b725b53a4406d84a17.png" alt="考研导航 Skill 原理图：输入规范化、公开检索、证据分级、核心判断与输出结论" />
 </p>
 
 ## 适合解决什么问题

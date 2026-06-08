@@ -1,0 +1,16 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="考研导航 logo">
+  <defs>
+    <style>
+      .line { stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect width="1024" height="1024" rx="220" fill="white"/>
+  <circle cx="512" cy="512" r="285" fill="none" stroke="#18334F" stroke-width="40"/>
+  <path d="M512 220V330" class="line" stroke="#59C7BE" stroke-width="40"/>
+  <path d="M512 694V804" class="line" stroke="#59C7BE" stroke-width="40"/>
+  <path d="M330 512H220" class="line" stroke="#59C7BE" stroke-width="40"/>
+  <path d="M804 512H694" class="line" stroke="#59C7BE" stroke-width="40"/>
+  <path d="M512 330L640 640L512 590L384 640L512 330Z" fill="#18334F"/>
+  <circle cx="512" cy="512" r="34" fill="#FFB44A"/>
+  <path d="M360 735C418 684 478 656 512 656C546 656 606 684 664 735" class="line" stroke="#2E8C9A" stroke-width="36"/>
+</svg>

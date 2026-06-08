@@ -1,0 +1,124 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="考研导航 Skill 原理图">
+  <defs>
+    <style>
+      .serif { font-family: "Songti SC","SimSun","STSong","Noto Serif CJK SC","Source Han Serif SC",serif; }
+      .title { font-size: 50px; font-weight: 700; fill: #243B64; }
+      .sub { font-size: 24px; fill: #53657A; }
+      .step { font-size: 28px; font-weight: 700; fill: #243B64; }
+      .label { font-size: 26px; fill: #2E3440; }
+      .small { font-size: 21px; fill: #4C5A6A; }
+      .mini { font-size: 17px; fill: #6C7785; }
+      .boxTitle { font-size: 26px; font-weight: 700; fill: #1F3A5A; }
+      .badge { font-size: 20px; font-weight: 700; fill: #FFFFFF; }
+    </style>
+    <linearGradient id="teal" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#59C7BE"/>
+      <stop offset="1" stop-color="#2E8C9A"/>
+    </linearGradient>
+    <linearGradient id="navy" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#244B73"/>
+      <stop offset="1" stop-color="#18334F"/>
+    </linearGradient>
+    <linearGradient id="amber" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFB44A"/>
+      <stop offset="1" stop-color="#E08A24"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="20" flood-color="#D6DFE8" flood-opacity="0.85"/>
+    </filter>
+    <marker id="arrow" markerWidth="14" markerHeight="14" refX="10" refY="7" orient="auto" markerUnits="strokeWidth">
+      <path d="M0 0L14 7L0 14Z" fill="#6A7684"/>
+    </marker>
+  </defs>
+
+  <rect width="1600" height="900" fill="white"/>
+
+  <rect x="50" y="40" width="1500" height="820" rx="28" fill="#FAFBFD" stroke="#E5ECF3" stroke-width="2"/>
+
+  <g transform="translate(95 84)">
+    <g transform="translate(0 4)">
+      <g transform="translate(0 0)">
+        <rect x="0" y="0" width="72" height="72" rx="20" fill="url(#navy)"/>
+        <path d="M36 14C43 14 49 20 49 27C49 32 46 37 41 39L36 44L31 39C26 37 23 32 23 27C23 20 29 14 36 14Z" fill="white"/>
+        <path d="M36 20L43 27L36 37L28 45L32 36L36 20Z" fill="url(#teal)"/>
+      </g>
+      <text x="92" y="44" class="serif title">考研导航 Skill 原理图</text>
+    </g>
+    <text x="92" y="88" class="serif sub">从公开数据到择校建议：先找证据，再做判断，再给冲稳保提示</text>
+  </g>
+
+  <line x1="800" y1="150" x2="800" y2="780" stroke="#D7DEE8" stroke-width="3" stroke-dasharray="10 10"/>
+
+  <g class="serif">
+    <text x="120" y="210" class="step">一、输入与规范化</text>
+    <text x="120" y="248" class="small">学校 / 学院 / 专业代码 / 培养方式 / 入学年份</text>
+
+    <rect x="110" y="283" width="270" height="94" rx="22" fill="white" stroke="#E2E8F0" stroke-width="2" filter="url(#shadow)"/>
+    <text x="145" y="312" class="boxTitle">用户输入</text>
+    <text x="145" y="338" class="mini">目标院校、专业、年份</text>
+
+    <line x1="380" y1="330" x2="452" y2="330" stroke="#6A7684" stroke-width="5" marker-end="url(#arrow)"/>
+
+    <rect x="460" y="283" width="250" height="94" rx="22" fill="#F4F8FB" stroke="#D7E0EA" stroke-width="2"/>
+    <text x="495" y="312" class="boxTitle">对象规范化</text>
+    <text x="495" y="338" class="mini">避免学院 / 代码 / 口径混用</text>
+
+    <rect x="110" y="425" width="600" height="230" rx="28" fill="white" stroke="#E2E8F0" stroke-width="2" filter="url(#shadow)"/>
+    <text x="145" y="474" class="boxTitle">二、公开检索与证据分级</text>
+    <text x="145" y="513" class="small">优先官方来源，第三方只作线索；找不到时再请用户补充材料</text>
+
+    <g transform="translate(145 549)">
+      <rect x="0" y="0" width="170" height="70" rx="18" fill="#EDF7F7" stroke="#CFE9E7"/>
+      <text x="22" y="43" class="label">研究生院 / 招生网</text>
+      <rect x="190" y="0" width="170" height="70" rx="18" fill="#F1F5FB" stroke="#D9E2F0"/>
+      <text x="212" y="43" class="label">学院公告 / 复试细则</text>
+      <rect x="380" y="0" width="170" height="70" rx="18" fill="#FFF6E8" stroke="#F3D7A8"/>
+      <text x="404" y="43" class="label">拟录取名单 / 公示</text>
+    </g>
+  </g>
+
+  <g class="serif">
+    <line x1="800" y1="520" x2="885" y2="520" stroke="#6A7684" stroke-width="5" marker-end="url(#arrow)"/>
+    <text x="840" y="488" class="mini">数据账本</text>
+
+    <rect x="900" y="270" width="600" height="410" rx="30" fill="white" stroke="#E2E8F0" stroke-width="2" filter="url(#shadow)"/>
+    <text x="940" y="322" class="step">三、核心判断</text>
+    <text x="940" y="360" class="small">把“能不能冲”拆成几项可核对的证据</text>
+
+    <g transform="translate(940 400)">
+      <rect x="0" y="0" width="244" height="74" rx="18" fill="#F4F8FB" stroke="#D7E0EA"/>
+      <text x="22" y="31" class="label">复试线 vs 国家线</text>
+      <text x="22" y="57" class="mini">看是否贴线、虚低或反弹</text>
+
+      <rect x="274" y="0" width="244" height="74" rx="18" fill="#F4F8FB" stroke="#D7E0EA"/>
+      <text x="296" y="31" class="label">统考名额 / 推免</text>
+      <text x="296" y="57" class="mini">看真正留给统考的份额</text>
+
+      <rect x="0" y="100" width="244" height="74" rx="18" fill="#F4F8FB" stroke="#D7E0EA"/>
+      <text x="22" y="131" class="label">拟录取中位数</text>
+      <text x="22" y="157" class="mini">看最终录取难度</text>
+
+      <rect x="274" y="100" width="244" height="74" rx="18" fill="#F4F8FB" stroke="#D7E0EA"/>
+      <text x="296" y="131" class="label">科目 / 学院变化</text>
+      <text x="296" y="157" class="mini">看是否改考、拆并、调整</text>
+    </g>
+
+    <rect x="900" y="708" width="600" height="102" rx="26" fill="#F8FBF8" stroke="#D6E8D6"/>
+    <text x="940" y="748" class="boxTitle">四、输出结论</text>
+    <text x="940" y="782" class="small">给出冲 / 稳 / 保建议，同时写明缺失项、来源和置信度</text>
+  </g>
+
+  <g class="serif">
+    <text x="120" y="742" class="step">图意简述</text>
+    <text x="120" y="786" class="small">把考研择校从“凭感觉问一句”变成“先查证据、再给建议”的工作流。</text>
+    <text x="120" y="822" class="small">如果某项数据找不到，模型不会硬猜，而是把缺口明说出来。</text>
+  </g>
+
+  <g transform="translate(1200 92)">
+    <circle cx="48" cy="48" r="48" fill="#18334F"/>
+    <circle cx="48" cy="48" r="24" fill="white"/>
+    <path d="M48 28L59 59L48 52L37 59L48 28Z" fill="#59C7BE"/>
+  </g>
+  <text x="1300" y="182" text-anchor="middle" class="serif badge" fill="#243B64">考研导航</text>
+  <text x="1300" y="208" text-anchor="middle" class="serif mini">简洁 · 克制 · 可审计</text>
+</svg>

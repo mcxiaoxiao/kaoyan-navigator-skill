@@ -1,16 +1,35 @@
 # 小红书文案
 
+> 配图建议：第一张放 `promotion/assets/github-repo-home.png`，后面可以配“复试线 vs 录取中位数”“计划数 vs 统考名额”的简单截图或手写图。  
+> 小红书不要太像项目说明书，多用“我踩过/我后来发现/真的别只看”这种口吻。
+> SEO 重点：标题 20 字以内，核心词前置；正文前 100 字自然出现 `考研择校`、`复试线` 或 `招生人数`；标签只选 6 到 9 个。
+
 ## 笔记一：避坑清单风
 
 ### 标题
 
-复试线低不等于好考！择校前先查这6个数
+考研择校别只看复试线
+
+### 备用标题
+
+```text
+复试线低真的好考吗
+择校前先查这6个数
+```
+
+### 搜索关键词
+
+```text
+考研择校, 复试线, 拟录取名单, 统考名额, 考研避坑
+```
 
 ### 正文
 
-考研择校真的别只看复试线。
+我以前也会先看复试线。
 
-有些专业复试线看着很低，但实际录取分数一点都不低。你以为是洼地，可能只是“低门槛进复试，高分才能录取”。
+后来发现，真的不够。
+
+有些专业复试线看着很低，但拟录取名单一翻，大家分数并不低。你以为是洼地，可能只是“低门槛进复试，高分才能录取”。
 
 择校前建议先查 6 个数：
 
@@ -25,19 +44,23 @@
 
 目录写 50 人，扣掉推免和专项后，真正给统考的可能少很多。
 
-我做了一个开源 AI Skill：`kaoyan-navigator-skill`。
-
-输入学校、学院和专业，它会先自己找官网、招生目录、复试细则和拟录取名单，再帮你整理这些数据。
-
-重点是：找不到的数据会标出来，不会硬编。
-
-GitHub 搜：
+我最近把这套检查流程做成了一个开源 AI Skill，仓库叫：
 
 ```text
 mcxiaoxiao/kaoyan-navigator-skill
 ```
 
-不是让 AI 替你决定学校，而是让它先帮你把信息差查清楚。
+之前链接叫 `mcxiaoxiao/kaoyan-risk-skill`，现在会跳到新名字。因为我后来觉得 risk 太不吉利了，考研已经够紧张，工具名还是温和点。
+
+配图这张就是仓库首页截图：
+
+```markdown
+![仓库截图](promotion/assets/github-repo-home.png)
+```
+
+它不是让 AI 替你决定学校，而是先帮你查官网、招生目录、复试细则和拟录取名单。找不到的数据会标出来，不会硬编。
+
+对纠结择校的人来说，我觉得这比一句“冲吧”有用。
 
 ### 话题
 
@@ -49,11 +72,24 @@ mcxiaoxiao/kaoyan-navigator-skill
 
 ### 标题
 
-招生50人？你确定统考也招50人吗
+招生50人≠统考50人
+
+### 备用标题
+
+```text
+考研招生人数别看错
+统考名额到底怎么看
+```
+
+### 搜索关键词
+
+```text
+考研招生人数, 统考名额, 推免比例, 考研信息差, 考研择校
+```
 
 ### 正文
 
-很多考研择校误判，都从这句话开始：
+很多择校误判，都是从这句话开始的：
 
 “这个专业招 50 人，应该还行吧。”
 
@@ -67,11 +103,23 @@ mcxiaoxiao/kaoyan-navigator-skill
 - 是学院总人数还是专业人数？
 - 专业代码有没有变？
 
-如果这些没查清楚，只看招生计划真的容易误判。
+这些不查清楚，只看招生计划真的容易误判。
 
-所以我把这套检查流程做成了一个 AI Skill，名字叫 `kaoyan-navigator-skill`。
+我把这套检查流程做成了一个小仓库：
 
-它会先查官方资料，再输出择校分析。比如：
+```text
+mcxiaoxiao/kaoyan-navigator-skill
+```
+
+仓库截图放第一张图就行：
+
+```markdown
+![GitHub 仓库截图](promotion/assets/github-repo-home.png)
+```
+
+它之前叫 `kaoyan-risk-skill`，现在改名了。不是不能讲风险，而是不想一上来就给考研人加压，所以换成了 navigator。
+
+这个 Skill 会让 AI 先查：
 
 - 复试线是不是虚低
 - 统考名额有没有缩水
@@ -79,15 +127,9 @@ mcxiaoxiao/kaoyan-navigator-skill
 - 有没有改考 408
 - 这个专业是不是突然被很多人推荐
 
-更重要的是：它会告诉你哪些数据没找到，哪些结论置信度不够。
+更重要的是，它会告诉你哪些数据没找到，哪些结论不够稳。
 
-GitHub：
-
-```text
-github.com/mcxiaoxiao/kaoyan-navigator-skill
-```
-
-希望大家择校时少被“看起来很好”的数字骗到。
+如果你正在择校，可以拿它当一个检查清单，不一定非要用工具，照着查也行。
 
 ### 互动问题
 
@@ -103,7 +145,20 @@ github.com/mcxiaoxiao/kaoyan-navigator-skill
 
 ### 标题
 
-做了个考研择校AI导航，适合纠结党
+考研择校AI导航来了
+
+### 备用标题
+
+```text
+纠结择校可以这样查
+让AI先查证据再建议
+```
+
+### 搜索关键词
+
+```text
+考研择校AI, AI工具, Codex Skill, 开源工具, 考研上岸
+```
 
 ### 正文
 
@@ -120,7 +175,19 @@ github.com/mcxiaoxiao/kaoyan-navigator-skill
 - 专业课有没有变？
 - 网上是不是突然很多人推荐？
 
-我把这个流程做成了一个开源 Skill：`kaoyan-navigator-skill`。
+我把这个流程整理成了一个开源 Skill：
+
+```text
+mcxiaoxiao/kaoyan-navigator-skill
+```
+
+旧链接 `mcxiaoxiao/kaoyan-risk-skill` 现在也能跳过去。改名原因很简单，risk 听着太吓人，navigator 更像“帮你看路”。
+
+第一张图可以放仓库截图：
+
+```markdown
+![kaoyan-navigator-skill 仓库首页](promotion/assets/github-repo-home.png)
+```
 
 它适合 Codex、Claude Code 这类 AI Agent。不是那种直接给你一句“冲/不冲”的工具，而是先把证据摆出来，再给建议。
 
@@ -128,13 +195,12 @@ github.com/mcxiaoxiao/kaoyan-navigator-skill
 
 搜不到关键数据时，它不会装懂，会直接告诉你需要补什么，比如拟录取名单 PDF、截图或者 CSV。
 
-项目地址：
+适合：
 
-```text
-github.com/mcxiaoxiao/kaoyan-navigator-skill
-```
-
-适合正在择校的人、想整理院校数据的人、想用 AI 做信息搜集的人、想研究 Agent Skill 的人。
+- 正在择校的人
+- 想整理院校数据的人
+- 想用 AI 做信息搜集的人
+- 想研究 Agent Skill 的人
 
 欢迎拿去试，也欢迎提建议。
 
@@ -143,4 +209,3 @@ github.com/mcxiaoxiao/kaoyan-navigator-skill
 ```text
 #考研 #考研择校 #考研上岸 #AI工具 #学习工具 #效率工具 #开源项目
 ```
-

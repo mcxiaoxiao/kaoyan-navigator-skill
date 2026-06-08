@@ -7,6 +7,7 @@
 - [csdn.md](csdn.md)：偏技术实现、Agent Skill、数据流程，适合开发者。
 - [zhihu.md](zhihu.md)：偏问题讨论、择校信息差、方法论，适合长文。
 - [xiaohongshu.md](xiaohongshu.md)：偏冲突钩子、避坑清单、轻量种草，适合图文/短视频。
+- [seo-playbook.md](seo-playbook.md)：三平台 SEO 写法、标题公式、关键词和配图规范。
 
 ## 核心传播句
 
@@ -31,4 +32,18 @@ https://github.com/mcxiaoxiao/kaoyan-navigator-skill
 AI Agent
 Codex Skill
 开源工具
+```
+
+## 统一配图
+
+首图建议使用：
+
+```text
+promotion/assets/github-repo-home.png
+```
+
+推荐 alt / 图片说明：
+
+```text
+GitHub 开源仓库 mcxiaoxiao/kaoyan-navigator-skill 首页截图，项目用于考研择校数据调研、复试线核对、统考名额整理和冲稳保建议。
 ```

@@ -92,7 +92,7 @@ python3 scripts/validate_data.py examples/sample.csv
 再给出缩招、推免挤压、复试线虚低和科目变化风险。
 ```
 
-## 参与贡献
+## 参与贡献与Skill安全
 
 欢迎提交院校数据口径、搜索策略、风险指标、真实案例和工具兼容性改进。提交前请阅读 [CONTRIBUTING.md](CONTRIBUTING.md)。
 

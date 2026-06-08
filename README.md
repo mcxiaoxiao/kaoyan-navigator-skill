@@ -2,7 +2,7 @@
   <img src="promotion/assets/logo.svg" alt="考研导航 logo" width="72" />
 </p>
 
-# 考研 Skill | 基于历年招生数据的择校助手
+# 考研择校指南 Skill | 基于历年招生数据的择校助手
 
 ---
 

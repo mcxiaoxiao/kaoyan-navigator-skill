@@ -126,3 +126,7 @@ cp -R /path/to/kaoyan-navigator-skill ~/.codex/skills/kaoyan-navigator
 ## 免责声明
 
 本项目仅用于信息整理和择校辅助。招生政策、名额和分数线可能变化，最终请以教育部、研招网和目标院校官方公告为准。
+
+## Star History
+
+[![Star History Chart](star-history.svg)](https://github.com/mcxiaoxiao/kaoyan-navigator-skill)
